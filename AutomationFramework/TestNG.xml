@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AutomationFramework">
+
+<listeners>
+		<listener class-name="com.AutomationFramework.utilities.Reporting" />
+	</listeners>
+
+
+
+	<test name="Demo Test">
+		<classes>
+			<class name="com.AutomationFramework.testcases.demotest" />
+
+		</classes>
+
+	</test>
+
+</suite>
