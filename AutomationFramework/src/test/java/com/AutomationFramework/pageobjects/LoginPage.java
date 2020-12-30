@@ -4,6 +4,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import io.qameta.allure.Step;
+
 public class LoginPage {
 
 	WebDriver driver;
@@ -23,7 +25,7 @@ public class LoginPage {
 	@FindBy(xpath="//input[@class='login_button']")
 	WebElement LoginButton;
 	
-	
+	@Step("Set the user Name in Elxsimatix Page")
 	public void setUserName(String uname)
 	{
 	
