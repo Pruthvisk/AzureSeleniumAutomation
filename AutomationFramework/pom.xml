@@ -9,13 +9,14 @@
   <version>0.0.1-SNAPSHOT</version>
 
   <name>AutomationFramework</name>
-  <!-- FIXME change it to the project's website -->
+  <!-- FIXME change it to the project's  -->
   <url>http://www.example.com</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <aspectj.version>1.8.10</aspectj.version>
   </properties>
   
   
@@ -57,6 +58,14 @@
     <artifactId>selenium-java</artifactId>
     <version>3.141.59</version>
 </dependency>
+
+
+<dependency>
+     <groupId>io.qameta.allure</groupId>
+     <artifactId>allure-testng</artifactId>
+     <version>2.12.0</version>
+</dependency>
+
 
 
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
